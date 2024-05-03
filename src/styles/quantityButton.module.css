@@ -1,0 +1,15 @@
+.groupButton {
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+    border: 1px solid #BFBFBF;
+}
+
+.groupButton button {
+    border: none;
+    background: none;
+}
+
+.add {
+    padding-top: 4px;
+}

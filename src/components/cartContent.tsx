@@ -2,6 +2,7 @@
 import Image from 'next/image'
 import styles from "@/styles/cartContent.module.css"
 import { useState } from "react"
+import CartCard from './cartCard';
 
 export default function CartContent({ cartProductsState }: any) {
 
@@ -19,23 +20,8 @@ export default function CartContent({ cartProductsState }: any) {
             <div className={styles.cartContent}>
                 <div className={styles.cartItems}>
                     {cartProducts.map((p: any) => {
-                        const { name, photo, price } = p;
-
                         return (
-                            <div className={styles.cartCard} key={p.id}>
-                                <div>
-                                    <Image alt={name} src={photo} width={75} height={77} />
-                                </div>
-                                <div>
-                                    {name}
-                                </div>
-                                <div>
-
-                                </div>
-                                <div className={styles.cartCardPrice}>
-                                    {currencyFormat.format(price)}
-                                </div>
-                            </div>
+                            <CartCard product={p} key={p.id} />
                         )
                     })}
                 </div>

@@ -1,0 +1,16 @@
+.cartCard{
+    width: 330px;
+    height: 85px;
+    border-radius: 8px;
+    padding: 0 15px 0 15px;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: black;
+}
+
+.cartCardPrice{
+    font-weight: 700;
+    
+}
