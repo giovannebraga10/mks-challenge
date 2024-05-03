@@ -2,21 +2,24 @@
     background-color: #0F52BA;
     height: 100px;
     display: flex;
-    justify-content: space-between;
     align-items: center;
+    justify-content: space-between;
     padding: 0 80px;
+    
+    
+    
+    
+    
 }
 
-.cartButton {
-    width: 90px;
-    height: 45px;
-    border-radius: 8px;
-    border: none;
+/* .containerLogo{
+
+    
 }
 
-.itensEsquerda{
-    display: flex;
-    gap: 3px;
-    color: white;
-}
+.containerCartButton{
+    
+} */
+
+
 

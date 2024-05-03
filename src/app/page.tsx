@@ -1,9 +1,20 @@
+'use client'
 
-import styles from "./page.module.css";
-import Navbar from "@/components/navbar";
+import Navbar from "@/components/navBar";
+import Content from "@/components/content";
+import CartContent from "@/components/cartContent";
+import { useState } from "react";
 
 export default function Home() {
+
+  const [cartProducts, setCartProducts] = useState([]);
+
   return (
-    <Navbar/>
+    <div>
+      <Navbar/>
+      <Content setCartProducts={setCartProducts} />
+      <CartContent cartProductsState={[cartProducts, setCartProducts]} /> 
+    </div>
+
   );
 }

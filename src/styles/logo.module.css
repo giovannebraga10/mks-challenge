@@ -1,3 +1,7 @@
+.fullLogo{
+    display: flex;
+    color: white;
+}
 .logo1{
     font-size: 36px;
     font-weight: 500;

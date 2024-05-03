@@ -1,0 +1,10 @@
+.cartButton {
+    width: 90px;
+    height: 45px;
+    border-radius: 10px;
+    border: none;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-weight: 900;
+}
